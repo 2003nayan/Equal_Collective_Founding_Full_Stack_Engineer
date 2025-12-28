@@ -1,0 +1,2685 @@
+{
+  "traces": [
+    {
+      "id": "trace-001",
+      "name": "Stainless Steel Water Bottle - Competitor Analysis",
+      "timestamp": "2025-12-27T21:01:05.314Z",
+      "status": "success",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Stainless Steel Water Bottle"
+          },
+          "output": {
+            "keywords": [
+              "stainless steel water bottle",
+              "insulated bottle",
+              "metal water bottle",
+              "vacuum flask"
+            ],
+            "reasoning": "Extracted attributes: material (steel), feature (insulated), product type (water bottle)"
+          },
+          "reasoning": "Extracted attributes: material (steel), feature (insulated), product type (water bottle)",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.314Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "stainless steel water bottle",
+              "insulated bottle",
+              "metal water bottle",
+              "vacuum flask"
+            ]
+          },
+          "output": {
+            "total_results": 2975,
+            "candidates": [
+              {
+                "asin": "B01P",
+                "price": 50.07,
+                "rating": 4,
+                "reviews": 4849,
+                "title": "Product 1 - perfect scenario"
+              },
+              {
+                "asin": "B02P",
+                "price": 47.71,
+                "rating": 4.8,
+                "reviews": 3538,
+                "title": "Product 2 - perfect scenario"
+              },
+              {
+                "asin": "B03P",
+                "price": 54.93,
+                "rating": 4.3,
+                "reviews": 112,
+                "title": "Product 3 - perfect scenario"
+              },
+              {
+                "asin": "B04P",
+                "price": 82.96,
+                "rating": 4.1,
+                "reviews": 2395,
+                "title": "Product 4 - perfect scenario"
+              },
+              {
+                "asin": "B05P",
+                "price": 38.1,
+                "rating": 4.3,
+                "reviews": 360,
+                "title": "Product 5 - perfect scenario"
+              },
+              {
+                "asin": "B06P",
+                "price": 33.7,
+                "rating": 4.4,
+                "reviews": 3967,
+                "title": "Product 6 - perfect scenario"
+              },
+              {
+                "asin": "B07P",
+                "price": 81.16,
+                "rating": 3.9,
+                "reviews": 4274,
+                "title": "Product 7 - perfect scenario"
+              },
+              {
+                "asin": "B08P",
+                "price": 46.38,
+                "rating": 4.4,
+                "reviews": 2532,
+                "title": "Product 8 - perfect scenario"
+              },
+              {
+                "asin": "B09P",
+                "price": 54.32,
+                "rating": 4.3,
+                "reviews": 645,
+                "title": "Product 9 - perfect scenario"
+              },
+              {
+                "asin": "B10P",
+                "price": 68.82,
+                "rating": 4.2,
+                "reviews": 2251,
+                "title": "Product 10 - perfect scenario"
+              },
+              {
+                "asin": "B11P",
+                "price": 88.14,
+                "rating": 3.9,
+                "reviews": 3649,
+                "title": "Product 11 - perfect scenario"
+              },
+              {
+                "asin": "B12P",
+                "price": 76.06,
+                "rating": 4.9,
+                "reviews": 4611,
+                "title": "Product 12 - perfect scenario"
+              },
+              {
+                "asin": "B13P",
+                "price": 56.57,
+                "rating": 4.9,
+                "reviews": 2125,
+                "title": "Product 13 - perfect scenario"
+              },
+              {
+                "asin": "B14P",
+                "price": 23.24,
+                "rating": 4.8,
+                "reviews": 3566,
+                "title": "Product 14 - perfect scenario"
+              },
+              {
+                "asin": "B15P",
+                "price": 34.97,
+                "rating": 4.5,
+                "reviews": 307,
+                "title": "Product 15 - perfect scenario"
+              },
+              {
+                "asin": "B16P",
+                "price": 84.4,
+                "rating": 4.9,
+                "reviews": 1135,
+                "title": "Product 16 - perfect scenario"
+              },
+              {
+                "asin": "B17P",
+                "price": 45.97,
+                "rating": 4,
+                "reviews": 2322,
+                "title": "Product 17 - perfect scenario"
+              },
+              {
+                "asin": "B18P",
+                "price": 60.78,
+                "rating": 4,
+                "reviews": 4108,
+                "title": "Product 18 - perfect scenario"
+              },
+              {
+                "asin": "B19P",
+                "price": 81.06,
+                "rating": 4.2,
+                "reviews": 437,
+                "title": "Product 19 - perfect scenario"
+              },
+              {
+                "asin": "B20P",
+                "price": 74.75,
+                "rating": 4.1,
+                "reviews": 2681,
+                "title": "Product 20 - perfect scenario"
+              },
+              {
+                "asin": "B21P",
+                "price": 15.23,
+                "rating": 4.8,
+                "reviews": 2716,
+                "title": "Product 21 - perfect scenario"
+              },
+              {
+                "asin": "B22P",
+                "price": 88.07,
+                "rating": 4.1,
+                "reviews": 891,
+                "title": "Product 22 - perfect scenario"
+              },
+              {
+                "asin": "B23P",
+                "price": 23.87,
+                "rating": 3.9,
+                "reviews": 3443,
+                "title": "Product 23 - perfect scenario"
+              },
+              {
+                "asin": "B24P",
+                "price": 47.48,
+                "rating": 4.2,
+                "reviews": 3650,
+                "title": "Product 24 - perfect scenario"
+              },
+              {
+                "asin": "B25P",
+                "price": 75.12,
+                "rating": 3.8,
+                "reviews": 4484,
+                "title": "Product 25 - perfect scenario"
+              },
+              {
+                "asin": "B26P",
+                "price": 68.87,
+                "rating": 3.8,
+                "reviews": 2821,
+                "title": "Product 26 - perfect scenario"
+              },
+              {
+                "asin": "B27P",
+                "price": 34.66,
+                "rating": 4.1,
+                "reviews": 4813,
+                "title": "Product 27 - perfect scenario"
+              },
+              {
+                "asin": "B28P",
+                "price": 61.44,
+                "rating": 3.9,
+                "reviews": 3608,
+                "title": "Product 28 - perfect scenario"
+              },
+              {
+                "asin": "B29P",
+                "price": 27.51,
+                "rating": 4.7,
+                "reviews": 2275,
+                "title": "Product 29 - perfect scenario"
+              },
+              {
+                "asin": "B30P",
+                "price": 63.22,
+                "rating": 3.9,
+                "reviews": 1818,
+                "title": "Product 30 - perfect scenario"
+              },
+              {
+                "asin": "B31P",
+                "price": 44.15,
+                "rating": 3.9,
+                "reviews": 270,
+                "title": "Product 31 - perfect scenario"
+              },
+              {
+                "asin": "B32P",
+                "price": 52.93,
+                "rating": 4.5,
+                "reviews": 987,
+                "title": "Product 32 - perfect scenario"
+              },
+              {
+                "asin": "B33P",
+                "price": 54.42,
+                "rating": 4.5,
+                "reviews": 4044,
+                "title": "Product 33 - perfect scenario"
+              },
+              {
+                "asin": "B34P",
+                "price": 61.54,
+                "rating": 4,
+                "reviews": 2943,
+                "title": "Product 34 - perfect scenario"
+              },
+              {
+                "asin": "B35P",
+                "price": 78.98,
+                "rating": 3.9,
+                "reviews": 3143,
+                "title": "Product 35 - perfect scenario"
+              },
+              {
+                "asin": "B36P",
+                "price": 31.18,
+                "rating": 5,
+                "reviews": 2825,
+                "title": "Product 36 - perfect scenario"
+              },
+              {
+                "asin": "B37P",
+                "price": 17.79,
+                "rating": 4.9,
+                "reviews": 3114,
+                "title": "Product 37 - perfect scenario"
+              },
+              {
+                "asin": "B38P",
+                "price": 31.02,
+                "rating": 4.9,
+                "reviews": 2260,
+                "title": "Product 38 - perfect scenario"
+              },
+              {
+                "asin": "B39P",
+                "price": 38.58,
+                "rating": 4.9,
+                "reviews": 3916,
+                "title": "Product 39 - perfect scenario"
+              },
+              {
+                "asin": "B40P",
+                "price": 98.26,
+                "rating": 4,
+                "reviews": 4601,
+                "title": "Product 40 - perfect scenario"
+              },
+              {
+                "asin": "B41P",
+                "price": 28.02,
+                "rating": 4.7,
+                "reviews": 3643,
+                "title": "Product 41 - perfect scenario"
+              },
+              {
+                "asin": "B42P",
+                "price": 34.39,
+                "rating": 4.4,
+                "reviews": 2979,
+                "title": "Product 42 - perfect scenario"
+              },
+              {
+                "asin": "B43P",
+                "price": 23.45,
+                "rating": 4,
+                "reviews": 2974,
+                "title": "Product 43 - perfect scenario"
+              },
+              {
+                "asin": "B44P",
+                "price": 56.65,
+                "rating": 4.1,
+                "reviews": 4408,
+                "title": "Product 44 - perfect scenario"
+              },
+              {
+                "asin": "B45P",
+                "price": 53.59,
+                "rating": 3.8,
+                "reviews": 4644,
+                "title": "Product 45 - perfect scenario"
+              },
+              {
+                "asin": "B46P",
+                "price": 54.99,
+                "rating": 3.8,
+                "reviews": 930,
+                "title": "Product 46 - perfect scenario"
+              },
+              {
+                "asin": "B47P",
+                "price": 71.7,
+                "rating": 4.5,
+                "reviews": 4040,
+                "title": "Product 47 - perfect scenario"
+              },
+              {
+                "asin": "B48P",
+                "price": 54.18,
+                "rating": 4.3,
+                "reviews": 1011,
+                "title": "Product 48 - perfect scenario"
+              },
+              {
+                "asin": "B49P",
+                "price": 85.35,
+                "rating": 4.2,
+                "reviews": 4265,
+                "title": "Product 49 - perfect scenario"
+              },
+              {
+                "asin": "B50P",
+                "price": 32.19,
+                "rating": 4.6,
+                "reviews": 4071,
+                "title": "Product 50 - perfect scenario"
+              }
+            ]
+          },
+          "reasoning": "Found 2975 total results in marketplace. Retrieved top 50 candidates for analysis.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.315Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 50,
+            "filters": {
+              "min_price": 15,
+              "min_rating": 3.8
+            }
+          },
+          "output": {
+            "passed": 50,
+            "failed": 0,
+            "evaluations": [
+              {
+                "asin": "B01P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B02P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B03P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B04P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B05P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B06P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B07P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B08P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B09P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B10P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B11P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B12P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B13P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B14P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B15P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B16P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B17P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B18P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B19P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B20P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B21P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B22P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B23P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B24P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B25P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B26P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B27P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B28P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B29P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B30P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B31P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B32P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B33P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B34P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B35P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B36P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B37P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B38P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B39P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B40P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B41P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B42P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B43P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B44P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B45P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B46P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B47P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B48P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B49P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B50P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              }
+            ],
+            "passedCandidates": [
+              {
+                "asin": "B01P",
+                "price": 50.07,
+                "rating": 4,
+                "reviews": 4849,
+                "title": "Product 1 - perfect scenario"
+              },
+              {
+                "asin": "B02P",
+                "price": 47.71,
+                "rating": 4.8,
+                "reviews": 3538,
+                "title": "Product 2 - perfect scenario"
+              },
+              {
+                "asin": "B03P",
+                "price": 54.93,
+                "rating": 4.3,
+                "reviews": 112,
+                "title": "Product 3 - perfect scenario"
+              },
+              {
+                "asin": "B04P",
+                "price": 82.96,
+                "rating": 4.1,
+                "reviews": 2395,
+                "title": "Product 4 - perfect scenario"
+              },
+              {
+                "asin": "B05P",
+                "price": 38.1,
+                "rating": 4.3,
+                "reviews": 360,
+                "title": "Product 5 - perfect scenario"
+              },
+              {
+                "asin": "B06P",
+                "price": 33.7,
+                "rating": 4.4,
+                "reviews": 3967,
+                "title": "Product 6 - perfect scenario"
+              },
+              {
+                "asin": "B07P",
+                "price": 81.16,
+                "rating": 3.9,
+                "reviews": 4274,
+                "title": "Product 7 - perfect scenario"
+              },
+              {
+                "asin": "B08P",
+                "price": 46.38,
+                "rating": 4.4,
+                "reviews": 2532,
+                "title": "Product 8 - perfect scenario"
+              },
+              {
+                "asin": "B09P",
+                "price": 54.32,
+                "rating": 4.3,
+                "reviews": 645,
+                "title": "Product 9 - perfect scenario"
+              },
+              {
+                "asin": "B10P",
+                "price": 68.82,
+                "rating": 4.2,
+                "reviews": 2251,
+                "title": "Product 10 - perfect scenario"
+              },
+              {
+                "asin": "B11P",
+                "price": 88.14,
+                "rating": 3.9,
+                "reviews": 3649,
+                "title": "Product 11 - perfect scenario"
+              },
+              {
+                "asin": "B12P",
+                "price": 76.06,
+                "rating": 4.9,
+                "reviews": 4611,
+                "title": "Product 12 - perfect scenario"
+              },
+              {
+                "asin": "B13P",
+                "price": 56.57,
+                "rating": 4.9,
+                "reviews": 2125,
+                "title": "Product 13 - perfect scenario"
+              },
+              {
+                "asin": "B14P",
+                "price": 23.24,
+                "rating": 4.8,
+                "reviews": 3566,
+                "title": "Product 14 - perfect scenario"
+              },
+              {
+                "asin": "B15P",
+                "price": 34.97,
+                "rating": 4.5,
+                "reviews": 307,
+                "title": "Product 15 - perfect scenario"
+              },
+              {
+                "asin": "B16P",
+                "price": 84.4,
+                "rating": 4.9,
+                "reviews": 1135,
+                "title": "Product 16 - perfect scenario"
+              },
+              {
+                "asin": "B17P",
+                "price": 45.97,
+                "rating": 4,
+                "reviews": 2322,
+                "title": "Product 17 - perfect scenario"
+              },
+              {
+                "asin": "B18P",
+                "price": 60.78,
+                "rating": 4,
+                "reviews": 4108,
+                "title": "Product 18 - perfect scenario"
+              },
+              {
+                "asin": "B19P",
+                "price": 81.06,
+                "rating": 4.2,
+                "reviews": 437,
+                "title": "Product 19 - perfect scenario"
+              },
+              {
+                "asin": "B20P",
+                "price": 74.75,
+                "rating": 4.1,
+                "reviews": 2681,
+                "title": "Product 20 - perfect scenario"
+              },
+              {
+                "asin": "B21P",
+                "price": 15.23,
+                "rating": 4.8,
+                "reviews": 2716,
+                "title": "Product 21 - perfect scenario"
+              },
+              {
+                "asin": "B22P",
+                "price": 88.07,
+                "rating": 4.1,
+                "reviews": 891,
+                "title": "Product 22 - perfect scenario"
+              },
+              {
+                "asin": "B23P",
+                "price": 23.87,
+                "rating": 3.9,
+                "reviews": 3443,
+                "title": "Product 23 - perfect scenario"
+              },
+              {
+                "asin": "B24P",
+                "price": 47.48,
+                "rating": 4.2,
+                "reviews": 3650,
+                "title": "Product 24 - perfect scenario"
+              },
+              {
+                "asin": "B25P",
+                "price": 75.12,
+                "rating": 3.8,
+                "reviews": 4484,
+                "title": "Product 25 - perfect scenario"
+              },
+              {
+                "asin": "B26P",
+                "price": 68.87,
+                "rating": 3.8,
+                "reviews": 2821,
+                "title": "Product 26 - perfect scenario"
+              },
+              {
+                "asin": "B27P",
+                "price": 34.66,
+                "rating": 4.1,
+                "reviews": 4813,
+                "title": "Product 27 - perfect scenario"
+              },
+              {
+                "asin": "B28P",
+                "price": 61.44,
+                "rating": 3.9,
+                "reviews": 3608,
+                "title": "Product 28 - perfect scenario"
+              },
+              {
+                "asin": "B29P",
+                "price": 27.51,
+                "rating": 4.7,
+                "reviews": 2275,
+                "title": "Product 29 - perfect scenario"
+              },
+              {
+                "asin": "B30P",
+                "price": 63.22,
+                "rating": 3.9,
+                "reviews": 1818,
+                "title": "Product 30 - perfect scenario"
+              },
+              {
+                "asin": "B31P",
+                "price": 44.15,
+                "rating": 3.9,
+                "reviews": 270,
+                "title": "Product 31 - perfect scenario"
+              },
+              {
+                "asin": "B32P",
+                "price": 52.93,
+                "rating": 4.5,
+                "reviews": 987,
+                "title": "Product 32 - perfect scenario"
+              },
+              {
+                "asin": "B33P",
+                "price": 54.42,
+                "rating": 4.5,
+                "reviews": 4044,
+                "title": "Product 33 - perfect scenario"
+              },
+              {
+                "asin": "B34P",
+                "price": 61.54,
+                "rating": 4,
+                "reviews": 2943,
+                "title": "Product 34 - perfect scenario"
+              },
+              {
+                "asin": "B35P",
+                "price": 78.98,
+                "rating": 3.9,
+                "reviews": 3143,
+                "title": "Product 35 - perfect scenario"
+              },
+              {
+                "asin": "B36P",
+                "price": 31.18,
+                "rating": 5,
+                "reviews": 2825,
+                "title": "Product 36 - perfect scenario"
+              },
+              {
+                "asin": "B37P",
+                "price": 17.79,
+                "rating": 4.9,
+                "reviews": 3114,
+                "title": "Product 37 - perfect scenario"
+              },
+              {
+                "asin": "B38P",
+                "price": 31.02,
+                "rating": 4.9,
+                "reviews": 2260,
+                "title": "Product 38 - perfect scenario"
+              },
+              {
+                "asin": "B39P",
+                "price": 38.58,
+                "rating": 4.9,
+                "reviews": 3916,
+                "title": "Product 39 - perfect scenario"
+              },
+              {
+                "asin": "B40P",
+                "price": 98.26,
+                "rating": 4,
+                "reviews": 4601,
+                "title": "Product 40 - perfect scenario"
+              },
+              {
+                "asin": "B41P",
+                "price": 28.02,
+                "rating": 4.7,
+                "reviews": 3643,
+                "title": "Product 41 - perfect scenario"
+              },
+              {
+                "asin": "B42P",
+                "price": 34.39,
+                "rating": 4.4,
+                "reviews": 2979,
+                "title": "Product 42 - perfect scenario"
+              },
+              {
+                "asin": "B43P",
+                "price": 23.45,
+                "rating": 4,
+                "reviews": 2974,
+                "title": "Product 43 - perfect scenario"
+              },
+              {
+                "asin": "B44P",
+                "price": 56.65,
+                "rating": 4.1,
+                "reviews": 4408,
+                "title": "Product 44 - perfect scenario"
+              },
+              {
+                "asin": "B45P",
+                "price": 53.59,
+                "rating": 3.8,
+                "reviews": 4644,
+                "title": "Product 45 - perfect scenario"
+              },
+              {
+                "asin": "B46P",
+                "price": 54.99,
+                "rating": 3.8,
+                "reviews": 930,
+                "title": "Product 46 - perfect scenario"
+              },
+              {
+                "asin": "B47P",
+                "price": 71.7,
+                "rating": 4.5,
+                "reviews": 4040,
+                "title": "Product 47 - perfect scenario"
+              },
+              {
+                "asin": "B48P",
+                "price": 54.18,
+                "rating": 4.3,
+                "reviews": 1011,
+                "title": "Product 48 - perfect scenario"
+              },
+              {
+                "asin": "B49P",
+                "price": 85.35,
+                "rating": 4.2,
+                "reviews": 4265,
+                "title": "Product 49 - perfect scenario"
+              },
+              {
+                "asin": "B50P",
+                "price": 32.19,
+                "rating": 4.6,
+                "reviews": 4071,
+                "title": "Product 50 - perfect scenario"
+              }
+            ]
+          },
+          "reasoning": "Applied quality filters. 50 candidates passed (Price >= $15 AND Rating >= 3.8). 0 candidates eliminated.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.315Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": 50
+          },
+          "output": {
+            "selected": {
+              "asin": "B01P",
+              "price": 50.07,
+              "rating": 4,
+              "reviews": 4849,
+              "title": "Product 1 - perfect scenario"
+            },
+            "ranking": [
+              {
+                "asin": "B01P",
+                "reviews": 4849,
+                "rank": 1
+              },
+              {
+                "asin": "B27P",
+                "reviews": 4813,
+                "rank": 2
+              },
+              {
+                "asin": "B45P",
+                "reviews": 4644,
+                "rank": 3
+              },
+              {
+                "asin": "B12P",
+                "reviews": 4611,
+                "rank": 4
+              },
+              {
+                "asin": "B40P",
+                "reviews": 4601,
+                "rank": 5
+              },
+              {
+                "asin": "B25P",
+                "reviews": 4484,
+                "rank": 6
+              },
+              {
+                "asin": "B44P",
+                "reviews": 4408,
+                "rank": 7
+              },
+              {
+                "asin": "B07P",
+                "reviews": 4274,
+                "rank": 8
+              },
+              {
+                "asin": "B49P",
+                "reviews": 4265,
+                "rank": 9
+              },
+              {
+                "asin": "B18P",
+                "reviews": 4108,
+                "rank": 10
+              }
+            ]
+          },
+          "reasoning": "Selected B01P with 4849 reviews as the top competitor.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.315Z"
+        }
+      ]
+    },
+    {
+      "id": "trace-002",
+      "name": "Wireless Bluetooth Earbuds - Competitor Analysis",
+      "timestamp": "2025-12-27T21:01:05.316Z",
+      "status": "success",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Wireless Bluetooth Earbuds"
+          },
+          "output": {
+            "keywords": [
+              "wireless earbuds",
+              "bluetooth earphones",
+              "TWS earbuds",
+              "wireless headphones"
+            ],
+            "reasoning": "Extracted attributes: connectivity (wireless, bluetooth), product type (earbuds/earphones)"
+          },
+          "reasoning": "Extracted attributes: connectivity (wireless, bluetooth), product type (earbuds/earphones)",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.316Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "wireless earbuds",
+              "bluetooth earphones",
+              "TWS earbuds",
+              "wireless headphones"
+            ]
+          },
+          "output": {
+            "total_results": 1516,
+            "candidates": [
+              {
+                "asin": "B01F",
+                "price": 7.4,
+                "rating": 2.4,
+                "reviews": 942,
+                "title": "Product 1 - failure scenario"
+              },
+              {
+                "asin": "B02F",
+                "price": 14.4,
+                "rating": 3.2,
+                "reviews": 2327,
+                "title": "Product 2 - failure scenario"
+              },
+              {
+                "asin": "B03F",
+                "price": 12.48,
+                "rating": 2.5,
+                "reviews": 3084,
+                "title": "Product 3 - failure scenario"
+              },
+              {
+                "asin": "B04F",
+                "price": 8.11,
+                "rating": 3.2,
+                "reviews": 4523,
+                "title": "Product 4 - failure scenario"
+              },
+              {
+                "asin": "B05F",
+                "price": 14.88,
+                "rating": 3.1,
+                "reviews": 1674,
+                "title": "Product 5 - failure scenario"
+              },
+              {
+                "asin": "B06F",
+                "price": 8.07,
+                "rating": 2.3,
+                "reviews": 642,
+                "title": "Product 6 - failure scenario"
+              },
+              {
+                "asin": "B07F",
+                "price": 13.01,
+                "rating": 2.5,
+                "reviews": 1831,
+                "title": "Product 7 - failure scenario"
+              },
+              {
+                "asin": "B08F",
+                "price": 5.61,
+                "rating": 3.3,
+                "reviews": 3843,
+                "title": "Product 8 - failure scenario"
+              },
+              {
+                "asin": "B09F",
+                "price": 6.81,
+                "rating": 2,
+                "reviews": 1242,
+                "title": "Product 9 - failure scenario"
+              },
+              {
+                "asin": "B10F",
+                "price": 11.73,
+                "rating": 3.8,
+                "reviews": 550,
+                "title": "Product 10 - failure scenario"
+              },
+              {
+                "asin": "B11F",
+                "price": 10.85,
+                "rating": 2,
+                "reviews": 4121,
+                "title": "Product 11 - failure scenario"
+              },
+              {
+                "asin": "B12F",
+                "price": 15.6,
+                "rating": 3.8,
+                "reviews": 520,
+                "title": "Product 12 - failure scenario"
+              },
+              {
+                "asin": "B13F",
+                "price": 7.84,
+                "rating": 3.5,
+                "reviews": 4487,
+                "title": "Product 13 - failure scenario"
+              },
+              {
+                "asin": "B14F",
+                "price": 5.83,
+                "rating": 3,
+                "reviews": 3538,
+                "title": "Product 14 - failure scenario"
+              },
+              {
+                "asin": "B15F",
+                "price": 6.46,
+                "rating": 3.2,
+                "reviews": 3493,
+                "title": "Product 15 - failure scenario"
+              },
+              {
+                "asin": "B16F",
+                "price": 16.21,
+                "rating": 3.2,
+                "reviews": 5049,
+                "title": "Product 16 - failure scenario"
+              },
+              {
+                "asin": "B17F",
+                "price": 11.1,
+                "rating": 2.2,
+                "reviews": 1184,
+                "title": "Product 17 - failure scenario"
+              },
+              {
+                "asin": "B18F",
+                "price": 14.94,
+                "rating": 2.2,
+                "reviews": 574,
+                "title": "Product 18 - failure scenario"
+              },
+              {
+                "asin": "B19F",
+                "price": 6.79,
+                "rating": 3.1,
+                "reviews": 650,
+                "title": "Product 19 - failure scenario"
+              },
+              {
+                "asin": "B20F",
+                "price": 14.63,
+                "rating": 3.4,
+                "reviews": 4844,
+                "title": "Product 20 - failure scenario"
+              },
+              {
+                "asin": "B21F",
+                "price": 13.04,
+                "rating": 2.7,
+                "reviews": 112,
+                "title": "Product 21 - failure scenario"
+              },
+              {
+                "asin": "B22F",
+                "price": 9.86,
+                "rating": 2.6,
+                "reviews": 2444,
+                "title": "Product 22 - failure scenario"
+              },
+              {
+                "asin": "B23F",
+                "price": 12.37,
+                "rating": 3.5,
+                "reviews": 1600,
+                "title": "Product 23 - failure scenario"
+              },
+              {
+                "asin": "B24F",
+                "price": 5.49,
+                "rating": 2.8,
+                "reviews": 4663,
+                "title": "Product 24 - failure scenario"
+              },
+              {
+                "asin": "B25F",
+                "price": 8.74,
+                "rating": 2.9,
+                "reviews": 271,
+                "title": "Product 25 - failure scenario"
+              },
+              {
+                "asin": "B26F",
+                "price": 15.23,
+                "rating": 2.1,
+                "reviews": 2348,
+                "title": "Product 26 - failure scenario"
+              },
+              {
+                "asin": "B27F",
+                "price": 7.94,
+                "rating": 3.5,
+                "reviews": 3797,
+                "title": "Product 27 - failure scenario"
+              },
+              {
+                "asin": "B28F",
+                "price": 8.12,
+                "rating": 2.6,
+                "reviews": 2618,
+                "title": "Product 28 - failure scenario"
+              },
+              {
+                "asin": "B29F",
+                "price": 9.56,
+                "rating": 2.1,
+                "reviews": 4866,
+                "title": "Product 29 - failure scenario"
+              },
+              {
+                "asin": "B30F",
+                "price": 11.19,
+                "rating": 2.1,
+                "reviews": 2463,
+                "title": "Product 30 - failure scenario"
+              },
+              {
+                "asin": "B31F",
+                "price": 15.39,
+                "rating": 2,
+                "reviews": 1011,
+                "title": "Product 31 - failure scenario"
+              },
+              {
+                "asin": "B32F",
+                "price": 10.19,
+                "rating": 2.2,
+                "reviews": 900,
+                "title": "Product 32 - failure scenario"
+              },
+              {
+                "asin": "B33F",
+                "price": 15.36,
+                "rating": 2.5,
+                "reviews": 2832,
+                "title": "Product 33 - failure scenario"
+              },
+              {
+                "asin": "B34F",
+                "price": 13.08,
+                "rating": 3.4,
+                "reviews": 4092,
+                "title": "Product 34 - failure scenario"
+              },
+              {
+                "asin": "B35F",
+                "price": 12.24,
+                "rating": 3,
+                "reviews": 4175,
+                "title": "Product 35 - failure scenario"
+              },
+              {
+                "asin": "B36F",
+                "price": 10.68,
+                "rating": 3.5,
+                "reviews": 3795,
+                "title": "Product 36 - failure scenario"
+              },
+              {
+                "asin": "B37F",
+                "price": 9.77,
+                "rating": 2.9,
+                "reviews": 2354,
+                "title": "Product 37 - failure scenario"
+              },
+              {
+                "asin": "B38F",
+                "price": 12.38,
+                "rating": 3.4,
+                "reviews": 3054,
+                "title": "Product 38 - failure scenario"
+              },
+              {
+                "asin": "B39F",
+                "price": 14.43,
+                "rating": 2,
+                "reviews": 4944,
+                "title": "Product 39 - failure scenario"
+              },
+              {
+                "asin": "B40F",
+                "price": 10.52,
+                "rating": 2.5,
+                "reviews": 660,
+                "title": "Product 40 - failure scenario"
+              },
+              {
+                "asin": "B41F",
+                "price": 16.14,
+                "rating": 2.4,
+                "reviews": 3692,
+                "title": "Product 41 - failure scenario"
+              },
+              {
+                "asin": "B42F",
+                "price": 15.21,
+                "rating": 2.7,
+                "reviews": 2558,
+                "title": "Product 42 - failure scenario"
+              },
+              {
+                "asin": "B43F",
+                "price": 13.15,
+                "rating": 3.3,
+                "reviews": 949,
+                "title": "Product 43 - failure scenario"
+              },
+              {
+                "asin": "B44F",
+                "price": 14.57,
+                "rating": 3,
+                "reviews": 1941,
+                "title": "Product 44 - failure scenario"
+              },
+              {
+                "asin": "B45F",
+                "price": 14.86,
+                "rating": 2.1,
+                "reviews": 3356,
+                "title": "Product 45 - failure scenario"
+              },
+              {
+                "asin": "B46F",
+                "price": 14.04,
+                "rating": 3.6,
+                "reviews": 98,
+                "title": "Product 46 - failure scenario"
+              },
+              {
+                "asin": "B47F",
+                "price": 8,
+                "rating": 3.7,
+                "reviews": 3223,
+                "title": "Product 47 - failure scenario"
+              },
+              {
+                "asin": "B48F",
+                "price": 10.41,
+                "rating": 3.8,
+                "reviews": 4831,
+                "title": "Product 48 - failure scenario"
+              },
+              {
+                "asin": "B49F",
+                "price": 15.83,
+                "rating": 2.9,
+                "reviews": 1987,
+                "title": "Product 49 - failure scenario"
+              },
+              {
+                "asin": "B50F",
+                "price": 12.21,
+                "rating": 3.1,
+                "reviews": 1676,
+                "title": "Product 50 - failure scenario"
+              }
+            ]
+          },
+          "reasoning": "Found 1516 total results in marketplace. Retrieved top 50 candidates for analysis.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.316Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 50,
+            "filters": {
+              "min_price": 15,
+              "min_rating": 3.8
+            }
+          },
+          "output": {
+            "passed": 1,
+            "failed": 49,
+            "evaluations": [
+              {
+                "asin": "B01F",
+                "qualified": false,
+                "reason": "Failed: Price $7.40 < Min $15; Rating 2.4 < Min 3.8"
+              },
+              {
+                "asin": "B02F",
+                "qualified": false,
+                "reason": "Failed: Price $14.40 < Min $15; Rating 3.2 < Min 3.8"
+              },
+              {
+                "asin": "B03F",
+                "qualified": false,
+                "reason": "Failed: Price $12.48 < Min $15; Rating 2.5 < Min 3.8"
+              },
+              {
+                "asin": "B04F",
+                "qualified": false,
+                "reason": "Failed: Price $8.11 < Min $15; Rating 3.2 < Min 3.8"
+              },
+              {
+                "asin": "B05F",
+                "qualified": false,
+                "reason": "Failed: Price $14.88 < Min $15; Rating 3.1 < Min 3.8"
+              },
+              {
+                "asin": "B06F",
+                "qualified": false,
+                "reason": "Failed: Price $8.07 < Min $15; Rating 2.3 < Min 3.8"
+              },
+              {
+                "asin": "B07F",
+                "qualified": false,
+                "reason": "Failed: Price $13.01 < Min $15; Rating 2.5 < Min 3.8"
+              },
+              {
+                "asin": "B08F",
+                "qualified": false,
+                "reason": "Failed: Price $5.61 < Min $15; Rating 3.3 < Min 3.8"
+              },
+              {
+                "asin": "B09F",
+                "qualified": false,
+                "reason": "Failed: Price $6.81 < Min $15; Rating 2 < Min 3.8"
+              },
+              {
+                "asin": "B10F",
+                "qualified": false,
+                "reason": "Failed: Price $11.73 < Min $15"
+              },
+              {
+                "asin": "B11F",
+                "qualified": false,
+                "reason": "Failed: Price $10.85 < Min $15; Rating 2 < Min 3.8"
+              },
+              {
+                "asin": "B12F",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B13F",
+                "qualified": false,
+                "reason": "Failed: Price $7.84 < Min $15; Rating 3.5 < Min 3.8"
+              },
+              {
+                "asin": "B14F",
+                "qualified": false,
+                "reason": "Failed: Price $5.83 < Min $15; Rating 3 < Min 3.8"
+              },
+              {
+                "asin": "B15F",
+                "qualified": false,
+                "reason": "Failed: Price $6.46 < Min $15; Rating 3.2 < Min 3.8"
+              },
+              {
+                "asin": "B16F",
+                "qualified": false,
+                "reason": "Failed: Rating 3.2 < Min 3.8"
+              },
+              {
+                "asin": "B17F",
+                "qualified": false,
+                "reason": "Failed: Price $11.10 < Min $15; Rating 2.2 < Min 3.8"
+              },
+              {
+                "asin": "B18F",
+                "qualified": false,
+                "reason": "Failed: Price $14.94 < Min $15; Rating 2.2 < Min 3.8"
+              },
+              {
+                "asin": "B19F",
+                "qualified": false,
+                "reason": "Failed: Price $6.79 < Min $15; Rating 3.1 < Min 3.8"
+              },
+              {
+                "asin": "B20F",
+                "qualified": false,
+                "reason": "Failed: Price $14.63 < Min $15; Rating 3.4 < Min 3.8"
+              },
+              {
+                "asin": "B21F",
+                "qualified": false,
+                "reason": "Failed: Price $13.04 < Min $15; Rating 2.7 < Min 3.8"
+              },
+              {
+                "asin": "B22F",
+                "qualified": false,
+                "reason": "Failed: Price $9.86 < Min $15; Rating 2.6 < Min 3.8"
+              },
+              {
+                "asin": "B23F",
+                "qualified": false,
+                "reason": "Failed: Price $12.37 < Min $15; Rating 3.5 < Min 3.8"
+              },
+              {
+                "asin": "B24F",
+                "qualified": false,
+                "reason": "Failed: Price $5.49 < Min $15; Rating 2.8 < Min 3.8"
+              },
+              {
+                "asin": "B25F",
+                "qualified": false,
+                "reason": "Failed: Price $8.74 < Min $15; Rating 2.9 < Min 3.8"
+              },
+              {
+                "asin": "B26F",
+                "qualified": false,
+                "reason": "Failed: Rating 2.1 < Min 3.8"
+              },
+              {
+                "asin": "B27F",
+                "qualified": false,
+                "reason": "Failed: Price $7.94 < Min $15; Rating 3.5 < Min 3.8"
+              },
+              {
+                "asin": "B28F",
+                "qualified": false,
+                "reason": "Failed: Price $8.12 < Min $15; Rating 2.6 < Min 3.8"
+              },
+              {
+                "asin": "B29F",
+                "qualified": false,
+                "reason": "Failed: Price $9.56 < Min $15; Rating 2.1 < Min 3.8"
+              },
+              {
+                "asin": "B30F",
+                "qualified": false,
+                "reason": "Failed: Price $11.19 < Min $15; Rating 2.1 < Min 3.8"
+              },
+              {
+                "asin": "B31F",
+                "qualified": false,
+                "reason": "Failed: Rating 2 < Min 3.8"
+              },
+              {
+                "asin": "B32F",
+                "qualified": false,
+                "reason": "Failed: Price $10.19 < Min $15; Rating 2.2 < Min 3.8"
+              },
+              {
+                "asin": "B33F",
+                "qualified": false,
+                "reason": "Failed: Rating 2.5 < Min 3.8"
+              },
+              {
+                "asin": "B34F",
+                "qualified": false,
+                "reason": "Failed: Price $13.08 < Min $15; Rating 3.4 < Min 3.8"
+              },
+              {
+                "asin": "B35F",
+                "qualified": false,
+                "reason": "Failed: Price $12.24 < Min $15; Rating 3 < Min 3.8"
+              },
+              {
+                "asin": "B36F",
+                "qualified": false,
+                "reason": "Failed: Price $10.68 < Min $15; Rating 3.5 < Min 3.8"
+              },
+              {
+                "asin": "B37F",
+                "qualified": false,
+                "reason": "Failed: Price $9.77 < Min $15; Rating 2.9 < Min 3.8"
+              },
+              {
+                "asin": "B38F",
+                "qualified": false,
+                "reason": "Failed: Price $12.38 < Min $15; Rating 3.4 < Min 3.8"
+              },
+              {
+                "asin": "B39F",
+                "qualified": false,
+                "reason": "Failed: Price $14.43 < Min $15; Rating 2 < Min 3.8"
+              },
+              {
+                "asin": "B40F",
+                "qualified": false,
+                "reason": "Failed: Price $10.52 < Min $15; Rating 2.5 < Min 3.8"
+              },
+              {
+                "asin": "B41F",
+                "qualified": false,
+                "reason": "Failed: Rating 2.4 < Min 3.8"
+              },
+              {
+                "asin": "B42F",
+                "qualified": false,
+                "reason": "Failed: Rating 2.7 < Min 3.8"
+              },
+              {
+                "asin": "B43F",
+                "qualified": false,
+                "reason": "Failed: Price $13.15 < Min $15; Rating 3.3 < Min 3.8"
+              },
+              {
+                "asin": "B44F",
+                "qualified": false,
+                "reason": "Failed: Price $14.57 < Min $15; Rating 3 < Min 3.8"
+              },
+              {
+                "asin": "B45F",
+                "qualified": false,
+                "reason": "Failed: Price $14.86 < Min $15; Rating 2.1 < Min 3.8"
+              },
+              {
+                "asin": "B46F",
+                "qualified": false,
+                "reason": "Failed: Price $14.04 < Min $15; Rating 3.6 < Min 3.8"
+              },
+              {
+                "asin": "B47F",
+                "qualified": false,
+                "reason": "Failed: Price $8.00 < Min $15; Rating 3.7 < Min 3.8"
+              },
+              {
+                "asin": "B48F",
+                "qualified": false,
+                "reason": "Failed: Price $10.41 < Min $15"
+              },
+              {
+                "asin": "B49F",
+                "qualified": false,
+                "reason": "Failed: Rating 2.9 < Min 3.8"
+              },
+              {
+                "asin": "B50F",
+                "qualified": false,
+                "reason": "Failed: Price $12.21 < Min $15; Rating 3.1 < Min 3.8"
+              }
+            ],
+            "passedCandidates": [
+              {
+                "asin": "B12F",
+                "price": 15.6,
+                "rating": 3.8,
+                "reviews": 520,
+                "title": "Product 12 - failure scenario"
+              }
+            ]
+          },
+          "reasoning": "Applied quality filters. 1 candidates passed (Price >= $15 AND Rating >= 3.8). 49 candidates eliminated.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.316Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": 1
+          },
+          "output": {
+            "selected": {
+              "asin": "B12F",
+              "price": 15.6,
+              "rating": 3.8,
+              "reviews": 520,
+              "title": "Product 12 - failure scenario"
+            },
+            "ranking": [
+              {
+                "asin": "B12F",
+                "reviews": 520,
+                "rank": 1
+              }
+            ]
+          },
+          "reasoning": "Selected B12F with 520 reviews as the top competitor.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.316Z"
+        }
+      ]
+    },
+    {
+      "id": "trace-003",
+      "name": "Yoga Mat Premium - Competitor Analysis",
+      "timestamp": "2025-12-27T21:01:05.317Z",
+      "status": "success",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Yoga Mat Premium"
+          },
+          "output": {
+            "keywords": [
+              "yoga mat",
+              "exercise mat",
+              "fitness mat",
+              "non-slip yoga mat"
+            ],
+            "reasoning": "Extracted attributes: activity (yoga, exercise), feature (non-slip), quality (premium)"
+          },
+          "reasoning": "Extracted attributes: activity (yoga, exercise), feature (non-slip), quality (premium)",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.317Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "yoga mat",
+              "exercise mat",
+              "fitness mat",
+              "non-slip yoga mat"
+            ]
+          },
+          "output": {
+            "total_results": 1127,
+            "candidates": [
+              {
+                "asin": "B01P",
+                "price": 62.23,
+                "rating": 4.9,
+                "reviews": 248,
+                "title": "Product 1 - partial scenario"
+              },
+              {
+                "asin": "B02P",
+                "price": 25.58,
+                "rating": 4.6,
+                "reviews": 4846,
+                "title": "Product 2 - partial scenario"
+              },
+              {
+                "asin": "B03P",
+                "price": 18.61,
+                "rating": 3.6,
+                "reviews": 1944,
+                "title": "Product 3 - partial scenario"
+              },
+              {
+                "asin": "B04P",
+                "price": 19.08,
+                "rating": 5,
+                "reviews": 3440,
+                "title": "Product 4 - partial scenario"
+              },
+              {
+                "asin": "B05P",
+                "price": 20.17,
+                "rating": 4.4,
+                "reviews": 5017,
+                "title": "Product 5 - partial scenario"
+              },
+              {
+                "asin": "B06P",
+                "price": 13.96,
+                "rating": 4,
+                "reviews": 2629,
+                "title": "Product 6 - partial scenario"
+              },
+              {
+                "asin": "B07P",
+                "price": 25.92,
+                "rating": 4,
+                "reviews": 1900,
+                "title": "Product 7 - partial scenario"
+              },
+              {
+                "asin": "B08P",
+                "price": 24.56,
+                "rating": 3.7,
+                "reviews": 4328,
+                "title": "Product 8 - partial scenario"
+              },
+              {
+                "asin": "B09P",
+                "price": 62.34,
+                "rating": 4.8,
+                "reviews": 4717,
+                "title": "Product 9 - partial scenario"
+              },
+              {
+                "asin": "B10P",
+                "price": 19.47,
+                "rating": 3.9,
+                "reviews": 4940,
+                "title": "Product 10 - partial scenario"
+              },
+              {
+                "asin": "B11P",
+                "price": 19.98,
+                "rating": 3.9,
+                "reviews": 4633,
+                "title": "Product 11 - partial scenario"
+              },
+              {
+                "asin": "B12P",
+                "price": 22.02,
+                "rating": 4.4,
+                "reviews": 2850,
+                "title": "Product 12 - partial scenario"
+              },
+              {
+                "asin": "B13P",
+                "price": 46.81,
+                "rating": 4.3,
+                "reviews": 2689,
+                "title": "Product 13 - partial scenario"
+              },
+              {
+                "asin": "B14P",
+                "price": 9.41,
+                "rating": 3,
+                "reviews": 1928,
+                "title": "Product 14 - partial scenario"
+              },
+              {
+                "asin": "B15P",
+                "price": 13.99,
+                "rating": 4.8,
+                "reviews": 1430,
+                "title": "Product 15 - partial scenario"
+              },
+              {
+                "asin": "B16P",
+                "price": 9.72,
+                "rating": 4,
+                "reviews": 4841,
+                "title": "Product 16 - partial scenario"
+              },
+              {
+                "asin": "B17P",
+                "price": 64.6,
+                "rating": 4.5,
+                "reviews": 2703,
+                "title": "Product 17 - partial scenario"
+              },
+              {
+                "asin": "B18P",
+                "price": 10.96,
+                "rating": 3.9,
+                "reviews": 222,
+                "title": "Product 18 - partial scenario"
+              },
+              {
+                "asin": "B19P",
+                "price": 25.39,
+                "rating": 3.3,
+                "reviews": 2830,
+                "title": "Product 19 - partial scenario"
+              },
+              {
+                "asin": "B20P",
+                "price": 13.46,
+                "rating": 4.8,
+                "reviews": 888,
+                "title": "Product 20 - partial scenario"
+              },
+              {
+                "asin": "B21P",
+                "price": 38.52,
+                "rating": 4.3,
+                "reviews": 4664,
+                "title": "Product 21 - partial scenario"
+              },
+              {
+                "asin": "B22P",
+                "price": 26.88,
+                "rating": 2.5,
+                "reviews": 3627,
+                "title": "Product 22 - partial scenario"
+              },
+              {
+                "asin": "B23P",
+                "price": 26.7,
+                "rating": 2.9,
+                "reviews": 1739,
+                "title": "Product 23 - partial scenario"
+              },
+              {
+                "asin": "B24P",
+                "price": 8.9,
+                "rating": 4.3,
+                "reviews": 972,
+                "title": "Product 24 - partial scenario"
+              },
+              {
+                "asin": "B25P",
+                "price": 59.27,
+                "rating": 4.6,
+                "reviews": 197,
+                "title": "Product 25 - partial scenario"
+              },
+              {
+                "asin": "B26P",
+                "price": 23.07,
+                "rating": 4.2,
+                "reviews": 172,
+                "title": "Product 26 - partial scenario"
+              },
+              {
+                "asin": "B27P",
+                "price": 18.79,
+                "rating": 3.7,
+                "reviews": 2180,
+                "title": "Product 27 - partial scenario"
+              },
+              {
+                "asin": "B28P",
+                "price": 12.02,
+                "rating": 4.3,
+                "reviews": 632,
+                "title": "Product 28 - partial scenario"
+              },
+              {
+                "asin": "B29P",
+                "price": 64.9,
+                "rating": 4.7,
+                "reviews": 2489,
+                "title": "Product 29 - partial scenario"
+              },
+              {
+                "asin": "B30P",
+                "price": 25.42,
+                "rating": 4.7,
+                "reviews": 216,
+                "title": "Product 30 - partial scenario"
+              },
+              {
+                "asin": "B31P",
+                "price": 14.36,
+                "rating": 4.4,
+                "reviews": 1003,
+                "title": "Product 31 - partial scenario"
+              },
+              {
+                "asin": "B32P",
+                "price": 14.68,
+                "rating": 4.9,
+                "reviews": 4277,
+                "title": "Product 32 - partial scenario"
+              },
+              {
+                "asin": "B33P",
+                "price": 67.45,
+                "rating": 4.3,
+                "reviews": 509,
+                "title": "Product 33 - partial scenario"
+              },
+              {
+                "asin": "B34P",
+                "price": 10.81,
+                "rating": 4.8,
+                "reviews": 4365,
+                "title": "Product 34 - partial scenario"
+              },
+              {
+                "asin": "B35P",
+                "price": 8.35,
+                "rating": 4.9,
+                "reviews": 1326,
+                "title": "Product 35 - partial scenario"
+              },
+              {
+                "asin": "B36P",
+                "price": 17.07,
+                "rating": 3.3,
+                "reviews": 4596,
+                "title": "Product 36 - partial scenario"
+              },
+              {
+                "asin": "B37P",
+                "price": 20.18,
+                "rating": 4.9,
+                "reviews": 2623,
+                "title": "Product 37 - partial scenario"
+              },
+              {
+                "asin": "B38P",
+                "price": 20.36,
+                "rating": 2.7,
+                "reviews": 2909,
+                "title": "Product 38 - partial scenario"
+              },
+              {
+                "asin": "B39P",
+                "price": 18.21,
+                "rating": 3.5,
+                "reviews": 1064,
+                "title": "Product 39 - partial scenario"
+              },
+              {
+                "asin": "B40P",
+                "price": 27.94,
+                "rating": 2.6,
+                "reviews": 4925,
+                "title": "Product 40 - partial scenario"
+              },
+              {
+                "asin": "B41P",
+                "price": 52.86,
+                "rating": 4.6,
+                "reviews": 874,
+                "title": "Product 41 - partial scenario"
+              },
+              {
+                "asin": "B42P",
+                "price": 21.53,
+                "rating": 2.7,
+                "reviews": 1122,
+                "title": "Product 42 - partial scenario"
+              },
+              {
+                "asin": "B43P",
+                "price": 25.03,
+                "rating": 3.1,
+                "reviews": 3741,
+                "title": "Product 43 - partial scenario"
+              },
+              {
+                "asin": "B44P",
+                "price": 15.58,
+                "rating": 4.3,
+                "reviews": 3403,
+                "title": "Product 44 - partial scenario"
+              },
+              {
+                "asin": "B45P",
+                "price": 52.26,
+                "rating": 4.7,
+                "reviews": 3525,
+                "title": "Product 45 - partial scenario"
+              },
+              {
+                "asin": "B46P",
+                "price": 27.31,
+                "rating": 3.7,
+                "reviews": 3912,
+                "title": "Product 46 - partial scenario"
+              },
+              {
+                "asin": "B47P",
+                "price": 24.04,
+                "rating": 4,
+                "reviews": 4413,
+                "title": "Product 47 - partial scenario"
+              },
+              {
+                "asin": "B48P",
+                "price": 27.58,
+                "rating": 3.1,
+                "reviews": 418,
+                "title": "Product 48 - partial scenario"
+              },
+              {
+                "asin": "B49P",
+                "price": 33.34,
+                "rating": 4.7,
+                "reviews": 1061,
+                "title": "Product 49 - partial scenario"
+              },
+              {
+                "asin": "B50P",
+                "price": 26.73,
+                "rating": 3,
+                "reviews": 4303,
+                "title": "Product 50 - partial scenario"
+              }
+            ]
+          },
+          "reasoning": "Found 1127 total results in marketplace. Retrieved top 50 candidates for analysis.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.317Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 50,
+            "filters": {
+              "min_price": 15,
+              "min_rating": 3.8
+            }
+          },
+          "output": {
+            "passed": 23,
+            "failed": 27,
+            "evaluations": [
+              {
+                "asin": "B01P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B02P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B03P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.6 < Min 3.8"
+              },
+              {
+                "asin": "B04P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B05P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B06P",
+                "qualified": false,
+                "reason": "Failed: Price $13.96 < Min $15"
+              },
+              {
+                "asin": "B07P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B08P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.7 < Min 3.8"
+              },
+              {
+                "asin": "B09P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B10P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B11P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B12P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B13P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B14P",
+                "qualified": false,
+                "reason": "Failed: Price $9.41 < Min $15; Rating 3 < Min 3.8"
+              },
+              {
+                "asin": "B15P",
+                "qualified": false,
+                "reason": "Failed: Price $13.99 < Min $15"
+              },
+              {
+                "asin": "B16P",
+                "qualified": false,
+                "reason": "Failed: Price $9.72 < Min $15"
+              },
+              {
+                "asin": "B17P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B18P",
+                "qualified": false,
+                "reason": "Failed: Price $10.96 < Min $15"
+              },
+              {
+                "asin": "B19P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.3 < Min 3.8"
+              },
+              {
+                "asin": "B20P",
+                "qualified": false,
+                "reason": "Failed: Price $13.46 < Min $15"
+              },
+              {
+                "asin": "B21P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B22P",
+                "qualified": false,
+                "reason": "Failed: Rating 2.5 < Min 3.8"
+              },
+              {
+                "asin": "B23P",
+                "qualified": false,
+                "reason": "Failed: Rating 2.9 < Min 3.8"
+              },
+              {
+                "asin": "B24P",
+                "qualified": false,
+                "reason": "Failed: Price $8.90 < Min $15"
+              },
+              {
+                "asin": "B25P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B26P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B27P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.7 < Min 3.8"
+              },
+              {
+                "asin": "B28P",
+                "qualified": false,
+                "reason": "Failed: Price $12.02 < Min $15"
+              },
+              {
+                "asin": "B29P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B30P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B31P",
+                "qualified": false,
+                "reason": "Failed: Price $14.36 < Min $15"
+              },
+              {
+                "asin": "B32P",
+                "qualified": false,
+                "reason": "Failed: Price $14.68 < Min $15"
+              },
+              {
+                "asin": "B33P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B34P",
+                "qualified": false,
+                "reason": "Failed: Price $10.81 < Min $15"
+              },
+              {
+                "asin": "B35P",
+                "qualified": false,
+                "reason": "Failed: Price $8.35 < Min $15"
+              },
+              {
+                "asin": "B36P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.3 < Min 3.8"
+              },
+              {
+                "asin": "B37P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B38P",
+                "qualified": false,
+                "reason": "Failed: Rating 2.7 < Min 3.8"
+              },
+              {
+                "asin": "B39P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.5 < Min 3.8"
+              },
+              {
+                "asin": "B40P",
+                "qualified": false,
+                "reason": "Failed: Rating 2.6 < Min 3.8"
+              },
+              {
+                "asin": "B41P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B42P",
+                "qualified": false,
+                "reason": "Failed: Rating 2.7 < Min 3.8"
+              },
+              {
+                "asin": "B43P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.1 < Min 3.8"
+              },
+              {
+                "asin": "B44P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B45P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B46P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.7 < Min 3.8"
+              },
+              {
+                "asin": "B47P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B48P",
+                "qualified": false,
+                "reason": "Failed: Rating 3.1 < Min 3.8"
+              },
+              {
+                "asin": "B49P",
+                "qualified": true,
+                "reason": "Passed all checks"
+              },
+              {
+                "asin": "B50P",
+                "qualified": false,
+                "reason": "Failed: Rating 3 < Min 3.8"
+              }
+            ],
+            "passedCandidates": [
+              {
+                "asin": "B01P",
+                "price": 62.23,
+                "rating": 4.9,
+                "reviews": 248,
+                "title": "Product 1 - partial scenario"
+              },
+              {
+                "asin": "B02P",
+                "price": 25.58,
+                "rating": 4.6,
+                "reviews": 4846,
+                "title": "Product 2 - partial scenario"
+              },
+              {
+                "asin": "B04P",
+                "price": 19.08,
+                "rating": 5,
+                "reviews": 3440,
+                "title": "Product 4 - partial scenario"
+              },
+              {
+                "asin": "B05P",
+                "price": 20.17,
+                "rating": 4.4,
+                "reviews": 5017,
+                "title": "Product 5 - partial scenario"
+              },
+              {
+                "asin": "B07P",
+                "price": 25.92,
+                "rating": 4,
+                "reviews": 1900,
+                "title": "Product 7 - partial scenario"
+              },
+              {
+                "asin": "B09P",
+                "price": 62.34,
+                "rating": 4.8,
+                "reviews": 4717,
+                "title": "Product 9 - partial scenario"
+              },
+              {
+                "asin": "B10P",
+                "price": 19.47,
+                "rating": 3.9,
+                "reviews": 4940,
+                "title": "Product 10 - partial scenario"
+              },
+              {
+                "asin": "B11P",
+                "price": 19.98,
+                "rating": 3.9,
+                "reviews": 4633,
+                "title": "Product 11 - partial scenario"
+              },
+              {
+                "asin": "B12P",
+                "price": 22.02,
+                "rating": 4.4,
+                "reviews": 2850,
+                "title": "Product 12 - partial scenario"
+              },
+              {
+                "asin": "B13P",
+                "price": 46.81,
+                "rating": 4.3,
+                "reviews": 2689,
+                "title": "Product 13 - partial scenario"
+              },
+              {
+                "asin": "B17P",
+                "price": 64.6,
+                "rating": 4.5,
+                "reviews": 2703,
+                "title": "Product 17 - partial scenario"
+              },
+              {
+                "asin": "B21P",
+                "price": 38.52,
+                "rating": 4.3,
+                "reviews": 4664,
+                "title": "Product 21 - partial scenario"
+              },
+              {
+                "asin": "B25P",
+                "price": 59.27,
+                "rating": 4.6,
+                "reviews": 197,
+                "title": "Product 25 - partial scenario"
+              },
+              {
+                "asin": "B26P",
+                "price": 23.07,
+                "rating": 4.2,
+                "reviews": 172,
+                "title": "Product 26 - partial scenario"
+              },
+              {
+                "asin": "B29P",
+                "price": 64.9,
+                "rating": 4.7,
+                "reviews": 2489,
+                "title": "Product 29 - partial scenario"
+              },
+              {
+                "asin": "B30P",
+                "price": 25.42,
+                "rating": 4.7,
+                "reviews": 216,
+                "title": "Product 30 - partial scenario"
+              },
+              {
+                "asin": "B33P",
+                "price": 67.45,
+                "rating": 4.3,
+                "reviews": 509,
+                "title": "Product 33 - partial scenario"
+              },
+              {
+                "asin": "B37P",
+                "price": 20.18,
+                "rating": 4.9,
+                "reviews": 2623,
+                "title": "Product 37 - partial scenario"
+              },
+              {
+                "asin": "B41P",
+                "price": 52.86,
+                "rating": 4.6,
+                "reviews": 874,
+                "title": "Product 41 - partial scenario"
+              },
+              {
+                "asin": "B44P",
+                "price": 15.58,
+                "rating": 4.3,
+                "reviews": 3403,
+                "title": "Product 44 - partial scenario"
+              },
+              {
+                "asin": "B45P",
+                "price": 52.26,
+                "rating": 4.7,
+                "reviews": 3525,
+                "title": "Product 45 - partial scenario"
+              },
+              {
+                "asin": "B47P",
+                "price": 24.04,
+                "rating": 4,
+                "reviews": 4413,
+                "title": "Product 47 - partial scenario"
+              },
+              {
+                "asin": "B49P",
+                "price": 33.34,
+                "rating": 4.7,
+                "reviews": 1061,
+                "title": "Product 49 - partial scenario"
+              }
+            ]
+          },
+          "reasoning": "Applied quality filters. 23 candidates passed (Price >= $15 AND Rating >= 3.8). 27 candidates eliminated.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.317Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": 23
+          },
+          "output": {
+            "selected": {
+              "asin": "B05P",
+              "price": 20.17,
+              "rating": 4.4,
+              "reviews": 5017,
+              "title": "Product 5 - partial scenario"
+            },
+            "ranking": [
+              {
+                "asin": "B05P",
+                "reviews": 5017,
+                "rank": 1
+              },
+              {
+                "asin": "B10P",
+                "reviews": 4940,
+                "rank": 2
+              },
+              {
+                "asin": "B02P",
+                "reviews": 4846,
+                "rank": 3
+              },
+              {
+                "asin": "B09P",
+                "reviews": 4717,
+                "rank": 4
+              },
+              {
+                "asin": "B21P",
+                "reviews": 4664,
+                "rank": 5
+              },
+              {
+                "asin": "B11P",
+                "reviews": 4633,
+                "rank": 6
+              },
+              {
+                "asin": "B47P",
+                "reviews": 4413,
+                "rank": 7
+              },
+              {
+                "asin": "B45P",
+                "reviews": 3525,
+                "rank": 8
+              },
+              {
+                "asin": "B04P",
+                "reviews": 3440,
+                "rank": 9
+              },
+              {
+                "asin": "B44P",
+                "reviews": 3403,
+                "rank": 10
+              }
+            ]
+          },
+          "reasoning": "Selected B05P with 5017 reviews as the top competitor.",
+          "status": "success",
+          "timestamp": "2025-12-27T21:01:05.317Z"
+        }
+      ]
+    }
+  ]
+}
