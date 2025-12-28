@@ -2680,6 +2680,570 @@
           "timestamp": "2025-12-27T21:01:05.317Z"
         }
       ]
+    },
+    {
+      "id": "trace-004",
+      "name": "Mechanical Gaming Keyboard - Market Analysis",
+      "timestamp": "2025-12-28T10:15:22.000Z",
+      "status": "failure",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Mechanical Gaming Keyboard"
+          },
+          "output": {
+            "keywords": [
+              "mechanical keyboard",
+              "gaming keyboard",
+              "RGB keyboard",
+              "tactile switches"
+            ],
+            "reasoning": "Extracted attributes: type (mechanical), use case (gaming), feature (RGB)"
+          },
+          "reasoning": "Extracted attributes: type (mechanical), use case (gaming), feature (RGB)",
+          "status": "success",
+          "timestamp": "2025-12-28T10:15:22.000Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "mechanical keyboard",
+              "gaming keyboard",
+              "RGB keyboard",
+              "tactile switches"
+            ]
+          },
+          "output": {
+            "total_results": 1523,
+            "candidates": [
+              {
+                "asin": "KB01",
+                "price": 89.99,
+                "rating": 4.2,
+                "reviews": 2341,
+                "title": "Pro Gamer RGB Mechanical Keyboard"
+              },
+              {
+                "asin": "KB02",
+                "price": 129.99,
+                "rating": 4.7,
+                "reviews": 5234,
+                "title": "Elite Gaming Keyboard Cherry MX"
+              },
+              {
+                "asin": "KB03",
+                "price": 59.99,
+                "rating": 3.8,
+                "reviews": 892,
+                "title": "Budget RGB Gaming Keyboard"
+              },
+              {
+                "asin": "KB04",
+                "price": 149.99,
+                "rating": 4.9,
+                "reviews": 3421,
+                "title": "Professional Esports Keyboard"
+              },
+              {
+                "asin": "KB05",
+                "price": 79.99,
+                "rating": 4.1,
+                "reviews": 1567,
+                "title": "Compact TKL Mechanical Keyboard"
+              },
+              {
+                "asin": "KB06",
+                "price": 199.99,
+                "rating": 4.8,
+                "reviews": 2890,
+                "title": "Premium Wireless Gaming Keyboard"
+              },
+              {
+                "asin": "KB07",
+                "price": 44.99,
+                "rating": 3.5,
+                "reviews": 432,
+                "title": "Entry Level Gaming Keyboard"
+              },
+              {
+                "asin": "KB08",
+                "price": 119.99,
+                "rating": 4.4,
+                "reviews": 1890,
+                "title": "Streaming Pro Keyboard RGB"
+              },
+              {
+                "asin": "KB09",
+                "price": 99.99,
+                "rating": 4.3,
+                "reviews": 2156,
+                "title": "Multimedia Gaming Keyboard"
+              },
+              {
+                "asin": "KB10",
+                "price": 169.99,
+                "rating": 4.6,
+                "reviews": 3012,
+                "title": "Custom Hot-Swap Keyboard"
+              }
+            ]
+          },
+          "reasoning": "Found 1523 total results. Retrieved top 10 candidates for analysis.",
+          "status": "success",
+          "timestamp": "2025-12-28T10:15:22.100Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 10,
+            "filters": {
+              "min_price": 100,
+              "min_rating": 4.5,
+              "min_reviews": 3000
+            }
+          },
+          "output": {
+            "passed": 0,
+            "failed": 10,
+            "evaluations": [
+              {
+                "asin": "KB01",
+                "qualified": false,
+                "reason": "Price below $100 minimum"
+              },
+              {
+                "asin": "KB02",
+                "qualified": false,
+                "reason": "Rating 4.7 meets criteria but only 5234 < required reviews density"
+              },
+              {
+                "asin": "KB03",
+                "qualified": false,
+                "reason": "Rating 3.8 below 4.5 minimum"
+              },
+              {
+                "asin": "KB04",
+                "qualified": false,
+                "reason": "Price meets but reviews 3421 below density threshold"
+              },
+              {
+                "asin": "KB05",
+                "qualified": false,
+                "reason": "Price $79.99 below $100 minimum"
+              },
+              {
+                "asin": "KB06",
+                "qualified": false,
+                "reason": "Reviews 2890 below 3000 minimum"
+              },
+              {
+                "asin": "KB07",
+                "qualified": false,
+                "reason": "Rating 3.5 and price below minimums"
+              },
+              {
+                "asin": "KB08",
+                "qualified": false,
+                "reason": "Rating 4.4 below 4.5 minimum"
+              },
+              {
+                "asin": "KB09",
+                "qualified": false,
+                "reason": "Price and rating both below minimums"
+              },
+              {
+                "asin": "KB10",
+                "qualified": false,
+                "reason": "Reviews 3012 meets but combined score too low"
+              }
+            ],
+            "error": "No candidates passed quality filters"
+          },
+          "reasoning": "All 10 candidates failed to meet the strict quality criteria. Filter thresholds may be too restrictive for this product category.",
+          "status": "failure",
+          "timestamp": "2025-12-28T10:15:22.200Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": []
+          },
+          "output": {
+            "error": "Cannot rank empty candidate list",
+            "selected": null
+          },
+          "reasoning": "Unable to select competitor - no candidates passed the filtering stage.",
+          "status": "failure",
+          "timestamp": "2025-12-28T10:15:22.300Z"
+        }
+      ]
+    },
+    {
+      "id": "trace-005",
+      "name": "Fitness Smart Watch - Category Research",
+      "timestamp": "2025-12-28T11:30:45.000Z",
+      "status": "failure",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Fitness Smart Watch"
+          },
+          "output": {
+            "keywords": [
+              "fitness tracker",
+              "smart watch",
+              "health monitor",
+              "activity tracker"
+            ],
+            "reasoning": "Extracted attributes: function (fitness), type (smart watch), features (health monitoring)"
+          },
+          "reasoning": "Extracted attributes: function (fitness), type (smart watch), features (health monitoring)",
+          "status": "success",
+          "timestamp": "2025-12-28T11:30:45.000Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "fitness tracker",
+              "smart watch",
+              "health monitor",
+              "activity tracker"
+            ]
+          },
+          "output": {
+            "total_results": 0,
+            "candidates": [],
+            "error": "Search API rate limit exceeded. Please retry after 60 seconds."
+          },
+          "reasoning": "Search failed due to API rate limiting. The service is temporarily unavailable.",
+          "status": "failure",
+          "timestamp": "2025-12-28T11:30:45.100Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 0,
+            "filters": {}
+          },
+          "output": {
+            "passed": 0,
+            "failed": 0,
+            "error": "No candidates to filter - upstream step failed"
+          },
+          "reasoning": "Cannot apply filters - no candidates received from search step.",
+          "status": "failure",
+          "timestamp": "2025-12-28T11:30:45.200Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": []
+          },
+          "output": {
+            "selected": null,
+            "error": "Pipeline aborted due to upstream failures"
+          },
+          "reasoning": "Selection aborted - pipeline failed at search stage due to API issues.",
+          "status": "failure",
+          "timestamp": "2025-12-28T11:30:45.300Z"
+        }
+      ]
+    },
+    {
+      "id": "trace-006",
+      "name": "Automatic Coffee Maker - Competitor Analysis",
+      "timestamp": "2025-12-28T14:22:18.000Z",
+      "status": "success",
+      "steps": [
+        {
+          "stepName": "Keyword Generation",
+          "input": {
+            "productName": "Automatic Coffee Maker"
+          },
+          "output": {
+            "keywords": [
+              "automatic coffee maker",
+              "programmable coffee machine",
+              "drip coffee maker",
+              "coffee brewer"
+            ],
+            "reasoning": "Extracted attributes: automation (automatic), type (coffee maker), features (programmable)"
+          },
+          "reasoning": "Extracted attributes: automation (automatic), type (coffee maker), features (programmable)",
+          "status": "success",
+          "timestamp": "2025-12-28T14:22:18.000Z"
+        },
+        {
+          "stepName": "Candidate Search",
+          "input": {
+            "keywords": [
+              "automatic coffee maker",
+              "programmable coffee machine",
+              "drip coffee maker",
+              "coffee brewer"
+            ]
+          },
+          "output": {
+            "total_results": 2156,
+            "candidates": [
+              {
+                "asin": "CF01",
+                "price": 79.99,
+                "rating": 4.6,
+                "reviews": 8923,
+                "title": "Premium 12-Cup Programmable Coffee Maker"
+              },
+              {
+                "asin": "CF02",
+                "price": 129.99,
+                "rating": 4.8,
+                "reviews": 5678,
+                "title": "Barista-Style Automatic Brewer"
+              },
+              {
+                "asin": "CF03",
+                "price": 49.99,
+                "rating": 4.3,
+                "reviews": 12456,
+                "title": "Classic Drip Coffee Machine"
+              },
+              {
+                "asin": "CF04",
+                "price": 199.99,
+                "rating": 4.9,
+                "reviews": 3421,
+                "title": "Smart WiFi Coffee Maker"
+              },
+              {
+                "asin": "CF05",
+                "price": 89.99,
+                "rating": 4.5,
+                "reviews": 7890,
+                "title": "Thermal Carafe Coffee Maker"
+              },
+              {
+                "asin": "CF06",
+                "price": 159.99,
+                "rating": 4.7,
+                "reviews": 4532,
+                "title": "Grind & Brew Automatic"
+              },
+              {
+                "asin": "CF07",
+                "price": 39.99,
+                "rating": 4.1,
+                "reviews": 15678,
+                "title": "Budget Coffee Maker 10-Cup"
+              },
+              {
+                "asin": "CF08",
+                "price": 249.99,
+                "rating": 4.9,
+                "reviews": 2890,
+                "title": "Professional Espresso Machine"
+              },
+              {
+                "asin": "CF09",
+                "price": 69.99,
+                "rating": 4.4,
+                "reviews": 9123,
+                "title": "Compact 6-Cup Brewer"
+              },
+              {
+                "asin": "CF10",
+                "price": 119.99,
+                "rating": 4.6,
+                "reviews": 6234,
+                "title": "Cold Brew Coffee System"
+              }
+            ]
+          },
+          "reasoning": "Found 2156 total results. Retrieved top 10 candidates for analysis.",
+          "status": "success",
+          "timestamp": "2025-12-28T14:22:18.100Z"
+        },
+        {
+          "stepName": "Apply Filters",
+          "input": {
+            "candidates_count": 10,
+            "filters": {
+              "min_price": 40,
+              "min_rating": 4.3,
+              "min_reviews": 3000
+            }
+          },
+          "output": {
+            "passed": 6,
+            "failed": 4,
+            "evaluations": [
+              {
+                "asin": "CF01",
+                "qualified": true,
+                "reason": "Price $79.99, Rating 4.6, Reviews 8923 - all criteria met"
+              },
+              {
+                "asin": "CF02",
+                "qualified": true,
+                "reason": "Price $129.99, Rating 4.8, Reviews 5678 - all criteria met"
+              },
+              {
+                "asin": "CF03",
+                "qualified": true,
+                "reason": "Price $49.99, Rating 4.3, Reviews 12456 - all criteria met"
+              },
+              {
+                "asin": "CF04",
+                "qualified": true,
+                "reason": "Price $199.99, Rating 4.9, Reviews 3421 - all criteria met"
+              },
+              {
+                "asin": "CF05",
+                "qualified": true,
+                "reason": "Price $89.99, Rating 4.5, Reviews 7890 - all criteria met"
+              },
+              {
+                "asin": "CF06",
+                "qualified": true,
+                "reason": "Price $159.99, Rating 4.7, Reviews 4532 - all criteria met"
+              },
+              {
+                "asin": "CF07",
+                "qualified": false,
+                "reason": "Rating 4.1 below 4.3 minimum"
+              },
+              {
+                "asin": "CF08",
+                "qualified": false,
+                "reason": "Reviews 2890 below 3000 minimum"
+              },
+              {
+                "asin": "CF09",
+                "qualified": false,
+                "reason": "Rating 4.4 meets but excluded due to category mismatch"
+              },
+              {
+                "asin": "CF10",
+                "qualified": false,
+                "reason": "Cold brew category excluded from analysis"
+              }
+            ],
+            "passedCandidates": [
+              {
+                "asin": "CF01",
+                "price": 79.99,
+                "rating": 4.6,
+                "reviews": 8923,
+                "title": "Premium 12-Cup Programmable Coffee Maker"
+              },
+              {
+                "asin": "CF02",
+                "price": 129.99,
+                "rating": 4.8,
+                "reviews": 5678,
+                "title": "Barista-Style Automatic Brewer"
+              },
+              {
+                "asin": "CF03",
+                "price": 49.99,
+                "rating": 4.3,
+                "reviews": 12456,
+                "title": "Classic Drip Coffee Machine"
+              },
+              {
+                "asin": "CF04",
+                "price": 199.99,
+                "rating": 4.9,
+                "reviews": 3421,
+                "title": "Smart WiFi Coffee Maker"
+              },
+              {
+                "asin": "CF05",
+                "price": 89.99,
+                "rating": 4.5,
+                "reviews": 7890,
+                "title": "Thermal Carafe Coffee Maker"
+              },
+              {
+                "asin": "CF06",
+                "price": 159.99,
+                "rating": 4.7,
+                "reviews": 4532,
+                "title": "Grind & Brew Automatic"
+              }
+            ]
+          },
+          "reasoning": "6 out of 10 candidates passed quality filters. Strong competition in this category.",
+          "status": "success",
+          "timestamp": "2025-12-28T14:22:18.200Z"
+        },
+        {
+          "stepName": "Rank & Select",
+          "input": {
+            "qualified_candidates": [
+              {
+                "asin": "CF01",
+                "price": 79.99,
+                "rating": 4.6,
+                "reviews": 8923
+              },
+              {
+                "asin": "CF02",
+                "price": 129.99,
+                "rating": 4.8,
+                "reviews": 5678
+              },
+              {
+                "asin": "CF03",
+                "price": 49.99,
+                "rating": 4.3,
+                "reviews": 12456
+              },
+              {
+                "asin": "CF04",
+                "price": 199.99,
+                "rating": 4.9,
+                "reviews": 3421
+              },
+              {
+                "asin": "CF05",
+                "price": 89.99,
+                "rating": 4.5,
+                "reviews": 7890
+              },
+              {
+                "asin": "CF06",
+                "price": 159.99,
+                "rating": 4.7,
+                "reviews": 4532
+              }
+            ]
+          },
+          "output": {
+            "selected": {
+              "asin": "CF03",
+              "title": "Classic Drip Coffee Machine",
+              "price": 49.99,
+              "rating": 4.3,
+              "reviews": 12456
+            },
+            "ranking": [
+              { "asin": "CF03", "reviews": 12456, "rank": 1 },
+              { "asin": "CF01", "reviews": 8923, "rank": 2 },
+              { "asin": "CF05", "reviews": 7890, "rank": 3 },
+              { "asin": "CF02", "reviews": 5678, "rank": 4 },
+              { "asin": "CF06", "reviews": 4532, "rank": 5 },
+              { "asin": "CF04", "reviews": 3421, "rank": 6 }
+            ]
+          },
+          "reasoning": "Selected CF03 (Classic Drip Coffee Machine) with 12456 reviews as the top competitor. Strong market presence with excellent price-to-value ratio.",
+          "status": "success",
+          "timestamp": "2025-12-28T14:22:18.300Z"
+        }
+      ]
     }
   ]
 }
