@@ -113,6 +113,7 @@ class XRaySDK {
 
   /**
    * Add a type-safe step to the current trace
+   * Singleton pattern for easy access
    * Uses generics to ensure type safety at compile time
    */
   addStep<TInput extends Record<string, unknown>, TOutput extends Record<string, unknown>>(

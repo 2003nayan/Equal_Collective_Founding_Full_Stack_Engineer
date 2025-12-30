@@ -64,7 +64,7 @@ export const CandidateTable = ({ candidates, className }: CandidateTableProps) =
               <TableCell className="font-mono text-sm">
                 <button
                   onClick={() => handleCopyAsin(candidate.asin)}
-                  className="flex items-center gap-2 hover:text-primary transition-colors group"
+                  className="flex items-center gap-2 hover:text-primary transition-colors group cursor-pointer"
                 >
                   <span>{candidate.asin}</span>
                   {copiedAsin === candidate.asin ? (
@@ -83,11 +83,11 @@ export const CandidateTable = ({ candidates, className }: CandidateTableProps) =
               <TableCell className="text-right">
                 <span className={cn(
                   'inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium',
-                  candidate.rating >= 4.5 
-                    ? 'bg-success/10 text-success' 
-                    : candidate.rating >= 4.0 
-                    ? 'bg-primary/10 text-primary'
-                    : 'bg-warning/10 text-warning'
+                  candidate.rating >= 4.5
+                    ? 'bg-success/10 text-success'
+                    : candidate.rating >= 4.0
+                      ? 'bg-primary/10 text-primary'
+                      : 'bg-warning/10 text-warning'
                 )}>
                   {formatRating(candidate.rating)}
                 </span>

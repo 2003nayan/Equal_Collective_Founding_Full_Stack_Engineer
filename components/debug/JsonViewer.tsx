@@ -85,7 +85,7 @@ export const JsonViewer = ({ data, className }: JsonViewerProps) => {
     <div className={cn('relative group', className)}>
       <button
         onClick={handleCopy}
-        className="absolute top-3 right-3 p-2 rounded-md bg-secondary/50 hover:bg-secondary transition-colors opacity-0 group-hover:opacity-100"
+        className="absolute top-3 right-3 p-2 rounded-md bg-secondary/50 hover:bg-secondary transition-colors opacity-0 group-hover:opacity-100 cursor-pointer"
         aria-label="Copy JSON"
       >
         {copied ? (

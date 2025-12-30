@@ -43,4 +43,5 @@ export interface FilterOutput {
   failed: number;
   evaluations: FilterEvaluation[];
   passedCandidates: Candidate[];
+  [key: string]: unknown;
 }

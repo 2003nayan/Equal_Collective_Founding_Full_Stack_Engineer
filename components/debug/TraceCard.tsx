@@ -18,11 +18,11 @@ export const TraceCard = ({ trace, isSelected, onClick }: TraceCardProps) => {
     <button
       onClick={onClick}
       className={cn(
-        'w-full text-left p-4 rounded-xl transition-all duration-200',
+        'w-full text-left p-4 rounded-xl transition-all duration-200 cursor-pointer',
         'border-2',
         'hover:bg-secondary/50',
-        isSelected 
-          ? 'bg-secondary/80 border-primary/50 shadow-lg' 
+        isSelected
+          ? 'bg-secondary/80 border-primary/50 shadow-lg'
           : 'bg-card/50 border-transparent hover:border-border'
       )}
       style={{
@@ -32,9 +32,9 @@ export const TraceCard = ({ trace, isSelected, onClick }: TraceCardProps) => {
     >
       <div className="flex items-start justify-between gap-2">
         <div className="flex items-center gap-2">
-          <div 
+          <div
             className={cn('h-2.5 w-2.5 rounded-full', !isCompleted && 'animate-pulse')}
-            style={{ 
+            style={{
               backgroundColor: isCompleted ? '#22c55e' : '#ef4444',
               boxShadow: isCompleted ? '0 0 10px rgba(34, 197, 94, 0.4)' : undefined,
             }}
@@ -59,11 +59,11 @@ export const TraceCard = ({ trace, isSelected, onClick }: TraceCardProps) => {
             key={index}
             className="h-1.5 w-4 rounded-full transition-all"
             style={{
-              backgroundColor: status === 'success' 
-                ? '#22c55e' 
-                : status === 'failed' 
-                ? '#ef4444' 
-                : 'var(--muted)'
+              backgroundColor: status === 'success'
+                ? '#22c55e'
+                : status === 'failed'
+                  ? '#ef4444'
+                  : 'var(--muted)'
             }}
           />
         ))}

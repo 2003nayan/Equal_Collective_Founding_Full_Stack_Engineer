@@ -39,9 +39,9 @@ export const TraceDetail = ({ trace, className }: TraceDetailProps) => {
                 <span className="text-lg text-muted-foreground">
                   - {trace.subtitle}
                 </span>
-                
+
                 {/* Status Badge - Vibrant colors */}
-                <span 
+                <span
                   className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium"
                   style={{
                     backgroundColor: isCompleted ? '#22c55e' : '#ef4444',
@@ -66,7 +66,7 @@ export const TraceDetail = ({ trace, className }: TraceDetailProps) => {
               <div className="flex items-center gap-4 mt-3 flex-wrap">
                 <button
                   onClick={handleCopyTraceId}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group"
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group cursor-pointer"
                 >
                   <Hash className="h-3.5 w-3.5 text-muted-foreground" />
                   <span className="font-mono text-sm text-foreground">
@@ -105,15 +105,15 @@ export const TraceDetail = ({ trace, className }: TraceDetailProps) => {
         {/* Pipeline Steps */}
         <div className="space-y-4">
           <div className="flex items-center gap-2">
-            <div 
-              className="h-1.5 w-1.5 rounded-full" 
+            <div
+              className="h-1.5 w-1.5 rounded-full"
               style={{ backgroundColor: '#3b82f6' }}
             />
             <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
               Pipeline Steps
             </h3>
           </div>
-          
+
           <div className="space-y-3">
             {trace.steps.map((step, index) => (
               <StepCard
